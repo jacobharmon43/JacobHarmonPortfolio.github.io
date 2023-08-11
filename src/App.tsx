@@ -3,12 +3,10 @@ import { BrowserRouter } from 'react-router-dom';
 
 import PageBody from './components/PageBody/PageBody';
 
-interface AppProps {}
 
 
-
-const App: FC<AppProps> = () => (
-  <BrowserRouter>
+const App = () => (
+  <BrowserRouter basename='jacobharmon43.github.io/'>
       <PageBody></PageBody>
   </BrowserRouter>
 );
