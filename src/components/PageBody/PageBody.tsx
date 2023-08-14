@@ -7,6 +7,7 @@ import { Resume } from '../Resume/Resume';
 import { useLocation } from 'react-router-dom';
 import { BodyBackground } from '../BodyBackground/BodyBackground';
 import { GravityProject } from '../../ProjectPages/Gravity';
+import { PortfolioProject } from '../../ProjectPages/Website';
 
 
 interface PageBodyProps {}
@@ -21,6 +22,7 @@ const PageBody: FC<PageBodyProps> = () => (
         <Route path = "/Projects" element={ <Projects></Projects> }/>
         <Route path = "/Resume" element={ <Resume></Resume> }/>
         <Route path = "/Gravity" element={<GravityProject></GravityProject>}/>
+        <Route path = "/Portfolio" element={<PortfolioProject></PortfolioProject>}/>
       </Routes>
   </div>
 );

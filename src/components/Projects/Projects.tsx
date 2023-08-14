@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom';
 
 
 import GravityLogo from '../../Media/GravityLogo.png'
+import ReactJS from '../../Media/ReactJS.png'
 
 
 interface ProjectsProps {}
@@ -12,6 +13,7 @@ export class Projects extends React.Component<ProjectsProps>{
     return(
       <div className = "mx-8 h-128 grid auto-cols-max gap-1 grid-cols-3 md:grid-cols-4 bg-textOld">
         <ProjectNode title="Gravity" img = {GravityLogo} to='/Gravity'/>
+        <ProjectNode title="Portfolio Site" img = {ReactJS}  to='/Portfolio'/>
       </div>
     )
   }

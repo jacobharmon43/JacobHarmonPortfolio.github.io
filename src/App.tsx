@@ -6,7 +6,7 @@ import PageBody from './components/PageBody/PageBody';
 
 
 const App = () => (
-  <BrowserRouter basename='jacobharmon43.github.io/'>
+  <BrowserRouter>
       <PageBody></PageBody>
   </BrowserRouter>
 );

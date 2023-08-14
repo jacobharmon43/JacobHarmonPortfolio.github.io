@@ -9,7 +9,7 @@ import { CarouselJH } from '../components/ProjectPage/CarouselJH';
 export class GravityProject extends React.Component {
   render() {
     return(
-        <div className='px-24 text-monokaiYellow'>
+        <div className='px-8 text-monokaiYellow'>
             <CarouselJH images={[Grav1,Grav2,Grav3]}></CarouselJH>
             <div className='h-12'/>
             <iframe title="Gravity Itch Link" src="https://itch.io/embed/1311935" className='w-full bg-white'>
@@ -22,7 +22,7 @@ export class GravityProject extends React.Component {
             </p>
             <div className='h-12'/>
             <p className='w-full text-center text-3xl'>
-                Technologies Used in Creation of Gravity
+                Technologies Utilized:
             </p>
             <ProjectTechnologies technologyList={['CSharp', 'Unity', 'Blender', 'PlasticSCM']}/>
             <div className='h-12'/>

@@ -31,11 +31,13 @@ export class ProjectTechnologies extends React.Component<ProjectTechnologiesProp
             const logoFile = this.state.logos.get(technology);
             if(logoFile){
                 return (
-                    <img key={index} src = {logoFile} alt = {technology} className = 'h-full shrink px-1 py-1'/>
+                    <div className = 'flex items-center justify-center flex-shrink m-1'>
+                        <img key={index} src = {logoFile} alt = {technology} className='h-full w-full'/>
+                    </div>    
                 )
             } else {
                 return(
-                    <div className = 'flex h-full items-center justify-center px-1 py-1'>
+                    <div className = 'flex items-center justify-center m-1'>
                         <p key = {index}> {technology} </p>
                     </div>
                 )
@@ -46,7 +48,7 @@ export class ProjectTechnologies extends React.Component<ProjectTechnologiesProp
 
     render() {
         return(
-            <div className='flex flex-row justify-center rounded-lg gap-2 h-16 bg-backgroundLightened'>
+            <div className='flex flex-row justify-center rounded-lg bg-backgroundLightened h-16'>
                 {this.generateLogos()}
             </div>
         )
