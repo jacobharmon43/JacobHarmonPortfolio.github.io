@@ -1,4 +1,3 @@
-import React, { FC } from 'react'
 import { BrowserRouter } from 'react-router-dom';
 
 import PageBody from './components/PageBody/PageBody';
