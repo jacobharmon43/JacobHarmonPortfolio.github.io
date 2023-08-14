@@ -7,7 +7,6 @@
     animation: fall 16s linear 1;
 }
 
-
 @keyframes fall {
     0% {
         opacity: 0;

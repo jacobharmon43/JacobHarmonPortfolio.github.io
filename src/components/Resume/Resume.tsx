@@ -34,7 +34,7 @@ export class Resume extends React.Component<ResumeProps,ResumeState>{
           </Document>
         </div>
         <div className='h-4'/>
-        <a href={file} target='_blank' rel='noreferrer' className = 'block w-inherit text-center text-monokaiYellow' download="JacobHarmonResume"> Download PDF </a>
+        <a href={file} target='_blank' rel='noreferrer' className = 'block w-inherit text-center' download="JacobHarmonResume"> Download PDF </a>
         <div className ='h-4'/>
       </div>
     );

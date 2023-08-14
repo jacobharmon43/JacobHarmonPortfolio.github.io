@@ -7,7 +7,9 @@ import PageBody from './components/PageBody/PageBody';
 
 const App = () => (
   <BrowserRouter>
+    <div className='font-page text-monokaiYellow'>
       <PageBody></PageBody>
+    </div>
   </BrowserRouter>
 );
 

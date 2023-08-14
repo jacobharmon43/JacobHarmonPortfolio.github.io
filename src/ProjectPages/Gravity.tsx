@@ -9,7 +9,7 @@ import { CarouselJH } from '../components/ProjectPage/CarouselJH';
 export class GravityProject extends React.Component {
   render() {
     return(
-        <div className='px-8 text-monokaiYellow'>
+        <div className='px-8'>
             <CarouselJH images={[Grav1,Grav2,Grav3]}></CarouselJH>
             <div className='h-12'/>
             <iframe title="Gravity Itch Link" src="https://itch.io/embed/1311935" className='w-full bg-white'>
