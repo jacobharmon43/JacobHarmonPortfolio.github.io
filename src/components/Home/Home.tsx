@@ -9,7 +9,7 @@ export class Home extends React.Component{
         </h1>
         <h2 className = "px-10 text-base"> Full-stack Software Engineer, Data Analyst </h2>
         <div className="h-12 md:0"/>
-        <div className = "md:absolute md:top-1/2 md:pb-10 mx-24">
+        <div className = "transform md:translate-y-1/2 mx-8">
           <p className = "text-center text-base">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore 
             et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut 
