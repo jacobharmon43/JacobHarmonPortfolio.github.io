@@ -5,8 +5,9 @@ import Grav2 from '../Media/Grav2.png'
 import Grav3 from '../Media/Grav3.png'
 import { ProjectTechnologies } from '../components/ProjectPage/ProjectTechnologies';
 import { CarouselJH } from '../components/ProjectPage/CarouselJH';
+import { PageGeneric } from '../components/PageGeneric/PageGeneric';
 
-export class GravityProject extends React.Component {
+export class GravityProject extends PageGeneric {
   render() {
     return(
         <div className='px-8'>

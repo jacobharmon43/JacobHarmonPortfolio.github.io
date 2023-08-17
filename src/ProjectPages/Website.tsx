@@ -1,8 +1,9 @@
 import React from 'react';
 
 import { ProjectTechnologies } from '../components/ProjectPage/ProjectTechnologies';
+import { PageGeneric } from '../components/PageGeneric/PageGeneric';
 
-export class PortfolioProject extends React.Component {
+export class PortfolioProject extends PageGeneric {
   render() {
     return(
         <div className='px-8'>

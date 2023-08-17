@@ -1,31 +1,13 @@
 import React from 'react';
 import file from '../../Resume.pdf'
 import { Document, Page, pdfjs } from 'react-pdf';
+import { PageGeneric } from '../PageGeneric/PageGeneric';
 
 pdfjs.GlobalWorkerOptions.workerSrc = `//cdnjs.cloudflare.com/ajax/libs/pdf.js/${pdfjs.version}/pdf.worker.js`;
 
-interface ResumeProps{
 
-}
-
-interface ResumeState{
-
-}
-
-export class Resume extends React.Component<ResumeProps,ResumeState>{
-  constructor(props: ResumeProps){
-    super(props);
-    this.state = {};
-  }
-
-  componentDidMount(): void {
-    this.setState({
-
-    });
-  }
-
+export class Resume extends PageGeneric{
   render(): React.ReactNode {   
-
     return(
       <div className="flex flex-col m-8 justify-center overflow-x-hidden">
         <div id='holder' className='w-5/6 min-w-fit m-auto'>

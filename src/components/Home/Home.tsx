@@ -1,6 +1,6 @@
-import React from 'react';
+import { PageGeneric } from "../PageGeneric/PageGeneric"
 
-export class Home extends React.Component{
+export class Home extends PageGeneric{
   render() {
     return(
       <div>
